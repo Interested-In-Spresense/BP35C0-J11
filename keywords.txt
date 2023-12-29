@@ -1,0 +1,57 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+# Class
+BP35C0J11	KEYWORD1
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MAX_WISUN_DATA_SIZE  LITERAL1
+
+CMD_HDR_LEN          LITERAL1
+UNI_CODE_LEN         LITERAL1
+
+PAN_COORDINATOR      LITERAL1
+COORDINATOR          LITERAL1
+END_DEVICE           LITERAL1
+DUAL_MODE            LITERAL1
+
+SLEEP_DISABLE        LITERAL1
+SLEEP_ENABLE         LITERAL1
+
+CMD_RESET            LITERAL1
+CMD_INI              LITERAL1
+CMD_HAN              LITERAL1
+CMD_PANA             LITERAL1
+CMD_PANA_SET         LITERAL1
+CMD_CON_SET          LITERAL1
+CMD_UDPSEND          LITERAL1
+CMD_SCAN             LITERAL1
+CMD_PORTOPEN         LITERAL1
+
+NORT_WAKE            LITERAL1
+RES_INI              LITERAL1
+RES_HAN              LITERAL1
+RES_PANA             LITERAL1
+RES_PANA_SET         LITERAL1
+RES_CON_SET          LITERAL1
+RES_UDPSEND          LITERAL1
+RES_SCAN             LITERAL1
+NORT_SCAN            LITERAL1
+RES_PORTOPEN         LITERAL1
+NORT_PANA            LITERAL1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin		KEYWORD2
+init		KEYWORD2
+set_auth	KEYWORD2
+scan		KEYWORD2
+start_han	KEYWORD2
+start_udp	KEYWORD2
+send_data	KEYWORD2
+
